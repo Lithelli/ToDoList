@@ -1,0 +1,42 @@
+h1 {
+    text-align:center;
+    color: goldenrod;
+    margin:6%;
+}
+.list {
+    margin: 0 auto;
+    background-color: azure;
+    height: 60%;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-flow:column;
+    justify-content: space-around;
+}
+
+input {
+    border: 2px solid slategrey;
+    border-radius: 5px;
+    text-align:center;
+    margin-top: 5px;
+    display: flex;
+    align-self: center;
+
+}
+button {
+    background-color: floralwhite;
+    border: 3px solid slategrey;
+    border-radius: 5px;
+    width: 25%;
+    display:flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+/* button a hover{
+ } */
+p {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    background-color: goldenrod;
+}
